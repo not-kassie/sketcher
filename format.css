@@ -1,0 +1,34 @@
+*  {
+	border: 2px solid red;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    width: 37rem;
+    height: 37rem;
+    position: relative; 
+    margin: auto;
+}
+
+.box{
+    min-height: 3rem; 
+    min-width: 3rem;
+    margin: 0; 
+    flex-grow: 1; 
+}
+
+.newGrid{
+    display: inline-flex;
+    margin: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    height: 10%;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 15px; 
+    cursor: pointer;
+}
