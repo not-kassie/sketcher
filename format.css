@@ -1,31 +1,29 @@
-*  {
-	border: 2px solid red;
-}
+
 
 .content{
     display: flex;
     flex-wrap: wrap; 
-    flex-direction: row;
-    width: 37rem;
-    height: 37rem;
+    width: 560px;
+    height: 560px;
     position: relative; 
     margin: auto;
+    padding: 0px; 
+    flex-basis: 560px;
+    border: 2px solid black;
 }
 
 .box{
-    min-height: 3rem; 
-    min-width: 3rem;
-    margin: 0; 
-    flex-grow: 1; 
+    padding: 0px;
 }
 
 .newGrid{
-    display: inline-flex;
+    display: flex;
     margin: auto;
-    margin-bottom: 2%;
-    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
     height: 10%;
     width: 10%;
+    padding: 1%;
     justify-content: center;
     align-items: center;
     color: black;
